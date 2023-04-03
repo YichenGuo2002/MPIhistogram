@@ -1,1 +1,5 @@
-This is an MPI assignment
+ - Assignment Name: MPI Histogram
+
+ - Assignment Tech Stack: C, MPI
+
+ - Description: 

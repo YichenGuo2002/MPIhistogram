@@ -33,8 +33,9 @@ int main(int argc, char *argv[])
 
     srand((unsigned int)time(NULL));
 
-    fprintf(fp,"%d ", count); 
-    for (int i=0;i<count;i++)
+    fprintf(fp,"%d ", count);
+    int i; 
+    for (i=0;i<count;i++)
         fprintf(fp, "%d ", (int)(((float)rand()/(float)(RAND_MAX)) * num));
     
     printf("%d integers generated and stored in file %s\n", count, argv[1]);
