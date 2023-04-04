@@ -16,4 +16,7 @@ module load mpi/openmpi-x86_64
 
 mpicc -Wall -std=c99 -o filename filename.c
 mpiexec -n #processes ./filename arguments
+
+gcc filename.c -o filename
+./filename arguments
  ```
